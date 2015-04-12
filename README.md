@@ -1,4 +1,3 @@
-# SitecoreMVCFormsLocalization
 # Sitecore User Group Switzerland 2015 Demo (April)
 
 This is the demo code for the Sitecore User Group Switzerland 2015. It covers the topic "Sitecore MVC Forms Localization" and was built against Sitecore 8 rev.150223.
