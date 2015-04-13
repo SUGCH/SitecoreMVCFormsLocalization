@@ -10,6 +10,13 @@ template: {76036F5E-CBCE-46D1-AF0A-4143F9B557AA}
 templatekey: Sample Item
 
 ----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 201
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{19528CCC-B771-4AE2-9853-18D5E2F17339}" s:id="{F752CEDD-FC59-4D7A-AA5D-DE3BD2E25094}" s:ph="content" /></d></r>
+----field----
 field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
 name: __Workflow
 key: __workflow
@@ -80,7 +87,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: dc220a55-b94d-4e48-af77-7f322c01f8f1
+revision: 0454862a-2d40-4c2c-8af4-222154f73175
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
@@ -109,14 +116,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dc220a55-b94d-4e48-af77-7f322c01f8f1
+0454862a-2d40-4c2c-8af4-222154f73175
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150413T195423:635645516631173185Z
+20150413T201429:635645528692976198Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

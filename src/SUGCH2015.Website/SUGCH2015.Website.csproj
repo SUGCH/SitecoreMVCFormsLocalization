@@ -115,9 +115,12 @@
     <Content Include="Views\Renderings\Sample\SampleRendering.cshtml" />
     <Content Include="Views\Renderings\Sample\SampleSublayout.cshtml" />
     <Content Include="Views\web.config" />
+    <Content Include="Views\Traditional\Index.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\TraditionalController.cs" />
+    <Compile Include="Models\TraditionalViewModel.cs" />
     <Compile Include="Pipelines\HttpRequest\CultureResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -126,6 +129,7 @@
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

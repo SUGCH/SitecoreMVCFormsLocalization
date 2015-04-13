@@ -1,0 +1,44 @@
+----item----
+version: 1
+id: {2D1F3603-E02A-49EB-B172-0399FE7E187E}
+database: master
+path: /sitecore/layout/Renderings/SUGCH2015
+parent: {32566F0E-7686-45F1-A12F-D7260BD78BC3}
+name: SUGCH2015
+master: {00000000-0000-0000-0000-000000000000}
+template: {7EE0975B-0698-493E-B3A2-0B2EF33D0522}
+templatekey: Rendering Folder
+
+----version----
+language: en
+version: 1
+revision: 316e8240-972e-4735-8007-a00d9bbeac36
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150413T201341Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+316e8240-972e-4735-8007-a00d9bbeac36
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150413T201341:635645528217635868Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
