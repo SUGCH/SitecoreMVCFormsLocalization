@@ -215,6 +215,9 @@ deploy.txt
 *.sitecore
 !Sitecore.Support.*
 
+# Publish Profiles
+*.pubxml
+
 # Local History Plugin
 # https://visualstudiogallery.msdn.microsoft.com/226c2108-9da9-407d-b90d-9783040d27b8
 .localhistory/
