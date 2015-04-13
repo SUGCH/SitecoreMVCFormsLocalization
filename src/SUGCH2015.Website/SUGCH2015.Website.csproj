@@ -107,6 +107,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Views\Renderings\Sample\SampleInnerSublayout.cshtml" />
+    <Content Include="Views\Renderings\Sample\SampleLayout.cshtml" />
+    <Content Include="Views\Renderings\Sample\SampleRendering.cshtml" />
+    <Content Include="Views\Renderings\Sample\SampleSublayout.cshtml" />
+    <Content Include="Views\web.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
