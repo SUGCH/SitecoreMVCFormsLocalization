@@ -225,6 +225,67 @@ content-length: 14
 
 sitecore\admin
 ----version----
+language: de
+version: 1
+revision: 2a79d456-f084-46ad-b01e-a2cd775e0095
+
+----field----
+field: {75577384-3C97-45DA-A847-81B00500E250}
+name: Title
+key: title
+content-length: 10
+
+Startseite
+----field----
+field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
+name: Text
+key: text
+content-length: 111
+
+<p><a href="~/link.aspx?_id=234651EAB38A422D9E6E71A2B58912C3&amp;_z=z">Traditionelle &Uuml;bersetzungen</a></p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150413T195002Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2a79d456-f084-46ad-b01e-a2cd775e0095
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150413T195545:635645517455303440Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
 language: de-DE
 version: 1
 revision: 7d21d43f-d4eb-4cd5-b104-0ded451c60e8
@@ -309,23 +370,22 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: e094370a-32eb-4e5a-b588-0eb6139531ae
+revision: 43715c3a-4adc-4c7b-b822-8734363af172
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
 name: Title
 key: title
-content-length: 28
+content-length: 8
 
-Sitecore Experience Platform
+Homepage
 ----field----
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
 name: Text
 key: text
-content-length: 789
+content-length: 103
 
-<p style="line-height: 22px;">From a single connected platform that also integrates with other customer-facing platforms, to a single view of the customer in a big data marketing repository, to a completely eliminating much of the complexity that has previously held marketers back, the latest version of Sitecore makes customer experience highly achievable. Learn how the latest version of Sitecore gives marketers the complete data, integrated tools, and automation capabilities to engage customers throughout an iterative lifecycle &ndash; the technology foundation absolutely necessary to win customers for life.</p>
-<p>For further information, please go to the <a href="https://doc.sitecore.net/" target="_blank" title="Sitecore Documentation site">Sitecore Documentation site</a></p>
+<p><a href="~/link.aspx?_id=234651EAB38A422D9E6E71A2B58912C3&amp;_z=z">Traditional Translations</a></p>
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -388,14 +448,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e094370a-32eb-4e5a-b588-0eb6139531ae
+43715c3a-4adc-4c7b-b822-8734363af172
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150202T135948:635584823884124375Z
+20150413T195607:635645517676723530Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
