@@ -2,25 +2,25 @@
            
 @using (Html.BeginForm())
 {
-    <div>
+    <div class="row">
         @Html.LabelFor(m => m.PropertyName)
         @Html.EditorFor(m => m.PropertyName)
         @Html.ValidationMessageFor(m => m.PropertyName)
     </div>
 
-    <div>
+    <div class="row">
         @Html.LabelFor(m => m.StaticName)
         @Html.EditorFor(m => m.StaticName)
         @Html.ValidationMessageFor(m => m.StaticName)
     </div>
 
-    <div>
+    <div class="row">
         @Html.LabelFor(m => m.ResourcesName)
         @Html.EditorFor(m => m.ResourcesName)
         @Html.ValidationMessageFor(m => m.ResourcesName)
     </div>
 
-    <div>
-        <input type="submit"/>
+    <div class="row">
+        <input type="submit" />
     </div>
 }
