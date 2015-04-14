@@ -227,7 +227,7 @@ sitecore\admin
 ----version----
 language: de
 version: 1
-revision: 2a79d456-f084-46ad-b01e-a2cd775e0095
+revision: face93a7-050b-4de4-a97f-f41ca892eb74
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
@@ -240,9 +240,10 @@ Startseite
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
 name: Text
 key: text
-content-length: 111
+content-length: 216
 
 <p><a href="~/link.aspx?_id=234651EAB38A422D9E6E71A2B58912C3&amp;_z=z">Traditionelle &Uuml;bersetzungen</a></p>
+<p><a href="~/link.aspx?_id=37372732BBCB4E648963226A1E982D23&amp;_z=z">Serverseitige Validierung</a></p>
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -270,14 +271,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2a79d456-f084-46ad-b01e-a2cd775e0095
+face93a7-050b-4de4-a97f-f41ca892eb74
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150413T195545:635645517455303440Z
+20150414T160349:635646242296309786Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -370,7 +371,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 43715c3a-4adc-4c7b-b822-8734363af172
+revision: 6bf24550-3772-4014-8377-2aed4caf52c7
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
@@ -383,9 +384,10 @@ Homepage
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
 name: Text
 key: text
-content-length: 103
+content-length: 205
 
 <p><a href="~/link.aspx?_id=234651EAB38A422D9E6E71A2B58912C3&amp;_z=z">Traditional Translations</a></p>
+<p><a href="~/link.aspx?_id=37372732BBCB4E648963226A1E982D23&amp;_z=z">Server Side Validation</a></p>
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -448,14 +450,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-43715c3a-4adc-4c7b-b822-8734363af172
+6bf24550-3772-4014-8377-2aed4caf52c7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150413T195607:635645517676723530Z
+20150414T160409:635646242491710136Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -9,5 +9,10 @@
         {
             return this.View(model ?? new TraditionalViewModel());
         }
+
+        public ActionResult ServerSideValidation(ServerSideValidationViewModel model = null)
+        {
+            return this.View(model ?? new ServerSideValidationViewModel());
+        }
     }
 }
