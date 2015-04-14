@@ -115,11 +115,11 @@
     <Content Include="Views\Renderings\Sample\SampleRendering.cshtml" />
     <Content Include="Views\Renderings\Sample\SampleSublayout.cshtml" />
     <Content Include="Views\web.config" />
-    <Content Include="Views\Traditional\Index.cshtml" />
+    <Content Include="Views\Form\Traditional.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\TraditionalController.cs" />
+    <Compile Include="Controllers\FormController.cs" />
     <Compile Include="Models\TraditionalViewModel.cs" />
     <Compile Include="Pipelines\HttpRequest\CultureResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
