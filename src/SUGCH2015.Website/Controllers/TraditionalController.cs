@@ -5,15 +5,9 @@
 
     public class TraditionalController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Index(TraditionalViewModel model = null)
         {
-            return this.View(new TraditionalViewModel());
-        }
-
-        [HttpPost]
-        public ActionResult Index(TraditionalViewModel model)
-        {
-            return this.View(model);
+            return this.View(model ?? new TraditionalViewModel());
         }
     }
 }

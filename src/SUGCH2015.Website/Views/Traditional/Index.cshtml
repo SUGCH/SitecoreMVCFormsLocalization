@@ -1,3 +1,26 @@
 ﻿@model SUGCH2015.Website.Models.TraditionalViewModel
            
-Here comes the form
+@using (Html.BeginForm())
+{
+    <div>
+        @Html.LabelFor(m => m.PropertyName)
+        @Html.EditorFor(m => m.PropertyName)
+        @Html.ValidationMessageFor(m => m.PropertyName)
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.StaticName)
+        @Html.EditorFor(m => m.StaticName)
+        @Html.ValidationMessageFor(m => m.StaticName)
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.ResourcesName)
+        @Html.EditorFor(m => m.ResourcesName)
+        @Html.ValidationMessageFor(m => m.ResourcesName)
+    </div>
+
+    <div>
+        <input type="submit"/>
+    </div>
+}
