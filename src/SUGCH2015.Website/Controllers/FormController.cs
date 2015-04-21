@@ -15,6 +15,11 @@
             return this.View(model ?? new DictionaryViewModel());
         }
 
+        public ActionResult DisplayName(DisplayNameViewModel model = null)
+        {
+            return this.View(model ?? new DisplayNameViewModel());
+        }
+
         public ActionResult ServerSideValidation(ServerSideValidationViewModel model = null)
         {
             return this.View(model ?? new ServerSideValidationViewModel());
