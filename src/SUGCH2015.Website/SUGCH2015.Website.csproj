@@ -117,6 +117,7 @@
     <Content Include="Views\web.config" />
     <Content Include="Views\Form\Traditional.cshtml" />
     <Content Include="Views\Form\ServerSideValidation.cshtml" />
+    <Content Include="Views\Form\Dictionary.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +125,7 @@
     <Compile Include="Controllers\FormController.cs" />
     <Compile Include="ModelBinder\SitecoreModelBinder.cs" />
     <Compile Include="Models\ServerSideValidationViewModel.cs" />
+    <Compile Include="Models\DictionaryViewModel.cs" />
     <Compile Include="Models\TraditionalViewModel.cs" />
     <Compile Include="Pipelines\HttpRequest\CultureResolver.cs" />
     <Compile Include="Pipelines\Initialize\AddModelBinder.cs" />

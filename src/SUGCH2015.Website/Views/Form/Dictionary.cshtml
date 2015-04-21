@@ -1,0 +1,15 @@
+﻿@using Sitecore.Globalization
+@model SUGCH2015.Website.Models.DictionaryViewModel
+           
+@using (Html.BeginForm())
+{
+    <div class="row">
+        @Html.LabelFor(m => m.PropertyName, Translate.Text("PropertyName"))
+        @Html.EditorFor(m => m.PropertyName)
+        @Html.ValidationMessageFor(m => m.PropertyName, Translate.Text("General error"))
+    </div>
+    
+    <div class="row">
+        <input type="submit" />
+    </div>
+}
