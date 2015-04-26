@@ -45,7 +45,7 @@
         private string GetMessage(ValidationContext context, ValidationResult result)
         {
             // the next line is for demo purpose
-            if (context.ObjectType != typeof (UltimateViewModel)) return result.ErrorMessage;
+            if (context.ObjectType != typeof(ClientSideValidationViewModel) && context.ObjectType != typeof(UltimateViewModel)) return result.ErrorMessage;
 
             var name = this.Attribute.ErrorMessage;
             if (string.IsNullOrWhiteSpace(name))

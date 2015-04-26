@@ -110,6 +110,14 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Scripts\jquery-1.8.0.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.0.js" />
+    <Content Include="Scripts\jquery-1.8.0.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Views\Renderings\Sample\SampleInnerSublayout.cshtml" />
     <Content Include="Views\Renderings\Sample\SampleLayout.cshtml" />
     <Content Include="Views\Renderings\Sample\SampleRendering.cshtml" />

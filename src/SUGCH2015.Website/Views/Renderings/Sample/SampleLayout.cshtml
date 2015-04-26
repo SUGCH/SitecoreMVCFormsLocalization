@@ -3,33 +3,37 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <title>Welcome to Sitecore</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="CODE_LANGUAGE" content="C#" />
-  <meta name="vs_defaultClientScript" content="JavaScript" />
-  <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
-    <link href="/default.css" rel="stylesheet"/>
+    <title>Welcome to Sitecore</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="CODE_LANGUAGE" content="C#" />
+    <meta name="vs_defaultClientScript" content="JavaScript" />
+    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <link href="/default.css" rel="stylesheet" />
+
+    <script src="~/Scripts/jquery-1.8.0.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
 
     <style>
         .row {
             margin-top: 20px;
         }
 
-        .row input {
-            margin-right: 20px;
-        }
+            .row input {
+                margin-right: 20px;
+            }
 
-        .row label {
-            float: left;
-            display: block;
-            width: 180px;
-        }
+            .row label {
+                float: left;
+                display: block;
+                width: 180px;
+            }
     </style>
 </head>
-<body id="mainform"> 
-	<div id="MainPanel">
-		@Html.Sitecore().Placeholder("main")
-	</div>
- </body>
+<body id="mainform">
+    <div id="MainPanel">
+        @Html.Sitecore().Placeholder("main")
+    </div>
+</body>
 </html>
