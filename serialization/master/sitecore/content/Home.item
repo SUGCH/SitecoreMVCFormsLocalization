@@ -227,7 +227,7 @@ sitecore\admin
 ----version----
 language: de
 version: 1
-revision: fbd33cc7-8cb2-4d1a-88be-89ad9db244c9
+revision: 87d89ab6-44ff-413e-818e-d96103ac586b
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
@@ -240,12 +240,13 @@ Startseite
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
 name: Text
 key: text
-content-length: 328
+content-length: 433
 
 <p><a href="~/link.aspx?_id=234651EAB38A422D9E6E71A2B58912C3&amp;_z=z">Traditionelle &Uuml;bersetzungen<br>
 </a></p>
 <p><a href="~/link.aspx?_id=368F2E95C04F486A9C46DEEAE14FE29F&amp;_z=z">Sitecore &Uuml;bersetzungen</a></p>
 <p><a href="~/link.aspx?_id=37372732BBCB4E648963226A1E982D23&amp;_z=z">Serverseitige Validierung</a></p>
+<p><a href="~/link.aspx?_id=8DB0F6BEE6CF4F998F2D98B481340496&amp;_z=z">Ultimate &Uuml;bersetzung</a></p>
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -273,14 +274,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fbd33cc7-8cb2-4d1a-88be-89ad9db244c9
+87d89ab6-44ff-413e-818e-d96103ac586b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150425T160959:635655749999605103Z
+20150426T212650:635656804100633203Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -373,7 +374,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: b14ccc19-1963-4d94-8bbc-29b514c6531e
+revision: 97359dc6-54e6-4f1f-b30a-9c7095520996
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
@@ -386,7 +387,7 @@ Homepage
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
 name: Text
 key: text
-content-length: 314
+content-length: 415
 
 <p>
 <a href="~/link.aspx?_id=234651EAB38A422D9E6E71A2B58912C3&amp;_z=z">Traditional Translations<br>
@@ -395,6 +396,7 @@ content-length: 314
 <p><a href="~/link.aspx?_id=368F2E95C04F486A9C46DEEAE14FE29F&amp;_z=z">Sitecore Translations</a>
 </p>
 <p><a href="~/link.aspx?_id=37372732BBCB4E648963226A1E982D23&amp;_z=z">Server Side Validation</a></p>
+<p><a href="~/link.aspx?_id=8DB0F6BEE6CF4F998F2D98B481340496&amp;_z=z">Ultimate Translations</a></p>
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -457,14 +459,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b14ccc19-1963-4d94-8bbc-29b514c6531e
+97359dc6-54e6-4f1f-b30a-9c7095520996
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150425T161632:635655753929923451Z
+20150426T212519:635656803196294777Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

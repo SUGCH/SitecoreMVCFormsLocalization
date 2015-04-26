@@ -1,0 +1,14 @@
+﻿@model SUGCH2015.Website.Models.UltimateViewModel
+           
+@using (this.Html.BeginForm())
+{
+    <div class="row">
+        @(this.Html.LabelFor(m => m.MetadataProviderPropertyName))
+        @(this.Html.EditorFor(m => m.MetadataProviderPropertyName))
+        @(this.Html.ValidationMessageFor(m => m.MetadataProviderPropertyName))
+    </div>
+
+    <div class="row">
+        <input type="submit" />
+    </div>
+}

@@ -19,5 +19,10 @@
         {
             return this.View(model ?? new ServerSideValidationViewModel());
         }
+
+        public ActionResult Ultimate(UltimateViewModel model = null)
+        {
+            return this.View(model ?? new UltimateViewModel());
+        }
     }
 }

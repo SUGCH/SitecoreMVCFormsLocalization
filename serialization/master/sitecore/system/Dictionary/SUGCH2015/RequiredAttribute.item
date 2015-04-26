@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {BD8052B1-E3B7-42E5-821F-A42E528F6372}
+id: {7FB7F7BD-BFF0-45D0-B63E-0F3748FFA3CA}
 database: master
-path: /sitecore/system/Dictionary/SUGCH2015/Required Default
+path: /sitecore/system/Dictionary/SUGCH2015/RequiredAttribute
 parent: {2CC0A329-DE16-41B0-88E6-0DA2A977FC60}
-name: Required Default
+name: RequiredAttribute
 master: {00000000-0000-0000-0000-000000000000}
 template: {6D1CD897-1936-4A3A-A511-289A94C2A7B1}
 templatekey: Dictionary entry
@@ -13,13 +13,13 @@ templatekey: Dictionary entry
 field: {580C75A8-C01A-4580-83CB-987776CEB3AF}
 name: Key
 key: key
-content-length: 26
+content-length: 17
 
-The {0} field is required.
+RequiredAttribute
 ----version----
 language: de
 version: 1
-revision: 2644a184-c9bf-4c49-817e-b994e3fed6bb
+revision: 7f6a751c-1f31-48fe-9499-60fb29ff5f35
 
 ----field----
 field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
@@ -41,7 +41,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150414T182234Z
+20150426T203904Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2644a184-c9bf-4c49-817e-b994e3fed6bb
+7f6a751c-1f31-48fe-9499-60fb29ff5f35
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150426T204034:635656776342785842Z
+20150426T204341:635656778214949728Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -73,7 +73,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: a4dbceda-2fe9-4785-bd86-9c999b13f6f5
+revision: 51580f70-cdba-4f7c-b906-68f64db86533
 
 ----field----
 field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
@@ -95,7 +95,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150414T182219Z
+20150426T203946Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -109,14 +109,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a4dbceda-2fe9-4785-bd86-9c999b13f6f5
+51580f70-cdba-4f7c-b906-68f64db86533
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150414T182401:635646326415770733Z
+20150426T203954:635656775944143965Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

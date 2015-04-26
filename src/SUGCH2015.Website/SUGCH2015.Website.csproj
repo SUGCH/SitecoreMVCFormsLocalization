@@ -118,10 +118,14 @@
     <Content Include="Views\Form\Traditional.cshtml" />
     <Content Include="Views\Form\ServerSideValidation.cshtml" />
     <Content Include="Views\Form\Sitecore.cshtml" />
+    <Content Include="Views\Form\Ultimate.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attributes\SitecoreRequiredAttributeAdapter.cs" />
     <Compile Include="Models\SitecoreViewModel.cs" />
+    <Compile Include="Models\UltimateViewModel.cs" />
+    <Compile Include="Pipelines\Initialize\AddAdapter.cs" />
     <Compile Include="Pipelines\Initialize\AddMetadataProvider.cs" />
     <Compile Include="Providers\CustomMetadataProvider.cs" />
     <Compile Include="Attributes\SitecoreDisplayNameAttribute.cs" />
