@@ -122,6 +122,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\SitecoreViewModel.cs" />
+    <Compile Include="Pipelines\Initialize\AddMetadataProvider.cs" />
     <Compile Include="Providers\CustomMetadataProvider.cs" />
     <Compile Include="Attributes\SitecoreDisplayNameAttribute.cs" />
     <Compile Include="Attributes\SitecoreRequiredAttribute.cs" />

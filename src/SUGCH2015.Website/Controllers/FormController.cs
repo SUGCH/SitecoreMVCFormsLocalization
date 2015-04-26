@@ -2,15 +2,9 @@
 {
     using System.Web.Mvc;
     using Models;
-    using Providers;
 
     public class FormController : Controller
     {
-        public FormController()
-        {
-            ModelMetadataProviders.Current = new CustomMetadataProvider();
-        }
-
         public ActionResult Traditional(TraditionalViewModel model = null)
         {
             return this.View(model ?? new TraditionalViewModel());
