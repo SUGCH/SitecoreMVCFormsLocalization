@@ -31,7 +31,7 @@
 
         private static bool IsTransformRequired(ModelMetadata modelMetadata, IList<Attribute> propertyAttributes)
         {
-            if (modelMetadata.ModelType != typeof (DisplayNameViewModel)) return false;
+            if (modelMetadata.PropertyName != "MetadataProviderPropertyName") return false;
             if (string.IsNullOrEmpty(modelMetadata.PropertyName)) return false;
             if (propertyAttributes.OfType<DisplayNameAttribute>().Any()) return false;
             return !propertyAttributes.OfType<DisplayAttribute>().Any();

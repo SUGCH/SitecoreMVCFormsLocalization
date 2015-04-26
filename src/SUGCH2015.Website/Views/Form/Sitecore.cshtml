@@ -1,0 +1,24 @@
+﻿@using Sitecore.Globalization
+@model SUGCH2015.Website.Models.SitecoreViewModel
+           
+@using (Html.BeginForm())
+{
+    <div class="row">
+        @(Html.LabelFor(m => m.SimplePropertyName, Translate.Text("SimplePropertyName")))
+        @(Html.EditorFor(m => m.SimplePropertyName))
+    </div>
+
+    <div class="row">
+        @(Html.LabelFor(m => m.CustomAttributePropertyName))
+        @(Html.EditorFor(m => m.CustomAttributePropertyName))
+    </div>
+
+    <div class="row">
+        @(Html.LabelFor(m => m.MetadataProviderPropertyName))
+        @(Html.EditorFor(m => m.MetadataProviderPropertyName))
+    </div>
+
+    <div class="row">
+        <input type="submit" />
+    </div>
+}

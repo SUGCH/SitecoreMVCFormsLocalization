@@ -117,19 +117,17 @@
     <Content Include="Views\web.config" />
     <Content Include="Views\Form\Traditional.cshtml" />
     <Content Include="Views\Form\ServerSideValidation.cshtml" />
-    <Content Include="Views\Form\Dictionary.cshtml" />
-    <Content Include="Views\Form\DisplayName.cshtml" />
+    <Content Include="Views\Form\Sitecore.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\SitecoreViewModel.cs" />
     <Compile Include="Providers\CustomMetadataProvider.cs" />
     <Compile Include="Attributes\SitecoreDisplayNameAttribute.cs" />
     <Compile Include="Attributes\SitecoreRequiredAttribute.cs" />
     <Compile Include="Controllers\FormController.cs" />
     <Compile Include="ModelBinder\SitecoreModelBinder.cs" />
-    <Compile Include="Models\DisplayNameViewModel.cs" />
     <Compile Include="Models\ServerSideValidationViewModel.cs" />
-    <Compile Include="Models\DictionaryViewModel.cs" />
     <Compile Include="Models\TraditionalViewModel.cs" />
     <Compile Include="Pipelines\HttpRequest\CultureResolver.cs" />
     <Compile Include="Pipelines\Initialize\AddModelBinder.cs" />

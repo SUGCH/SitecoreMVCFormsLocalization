@@ -1,7 +1,6 @@
 ﻿namespace SUGCH2015.Website.Controllers
 {
     using System.Web.Mvc;
-    using Attributes;
     using Models;
     using Providers;
 
@@ -17,14 +16,9 @@
             return this.View(model ?? new TraditionalViewModel());
         }
 
-        public ActionResult Dictionary(DictionaryViewModel model = null)
+        public ActionResult Sitecore(SitecoreViewModel model = null)
         {
-            return this.View(model ?? new DictionaryViewModel());
-        }
-
-        public ActionResult DisplayName(DisplayNameViewModel model = null)
-        {
-            return this.View(model ?? new DisplayNameViewModel());
+            return this.View(model ?? new SitecoreViewModel());
         }
 
         public ActionResult ServerSideValidation(ServerSideValidationViewModel model = null)

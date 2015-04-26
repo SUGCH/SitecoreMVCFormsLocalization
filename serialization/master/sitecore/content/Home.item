@@ -227,7 +227,7 @@ sitecore\admin
 ----version----
 language: de
 version: 1
-revision: 69e1c7c6-6006-47f5-80eb-f91c35ce04db
+revision: fbd33cc7-8cb2-4d1a-88be-89ad9db244c9
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
@@ -240,11 +240,11 @@ Startseite
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
 name: Text
 key: text
-content-length: 435
+content-length: 328
 
-<p><a href="~/link.aspx?_id=234651EAB38A422D9E6E71A2B58912C3&amp;_z=z">Traditionelle &Uuml;bersetzungen</a></p>
-<p><a href="~/link.aspx?_id=368F2E95C04F486A9C46DEEAE14FE29F&amp;_z=z">DisplayName &Uuml;bersetzungen</a></p>
-<p><a href="~/link.aspx?_id=6432BF85FF6B4A40A9B14909091C6185&amp;_z=z">Dictionary &Uuml;bersetzungen</a></p>
+<p><a href="~/link.aspx?_id=234651EAB38A422D9E6E71A2B58912C3&amp;_z=z">Traditionelle &Uuml;bersetzungen<br>
+</a></p>
+<p><a href="~/link.aspx?_id=368F2E95C04F486A9C46DEEAE14FE29F&amp;_z=z">Sitecore &Uuml;bersetzungen</a></p>
 <p><a href="~/link.aspx?_id=37372732BBCB4E648963226A1E982D23&amp;_z=z">Serverseitige Validierung</a></p>
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -273,14 +273,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-69e1c7c6-6006-47f5-80eb-f91c35ce04db
+fbd33cc7-8cb2-4d1a-88be-89ad9db244c9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150421T195049:635652426493679594Z
+20150425T160959:635655749999605103Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -373,7 +373,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: e40c7977-1af6-417b-8495-a3f75016ed9e
+revision: b14ccc19-1963-4d94-8bbc-29b514c6531e
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
@@ -386,11 +386,14 @@ Homepage
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
 name: Text
 key: text
-content-length: 412
+content-length: 314
 
-<p><a href="~/link.aspx?_id=234651EAB38A422D9E6E71A2B58912C3&amp;_z=z">Traditional Translations</a></p>
-<p><a href="~/link.aspx?_id=368F2E95C04F486A9C46DEEAE14FE29F&amp;_z=z">DisplayName Translations</a></p>
-<p><a href="~/link.aspx?_id=6432BF85FF6B4A40A9B14909091C6185&amp;_z=z">Dictionary Translations</a></p>
+<p>
+<a href="~/link.aspx?_id=234651EAB38A422D9E6E71A2B58912C3&amp;_z=z">Traditional Translations<br>
+</a>
+</p>
+<p><a href="~/link.aspx?_id=368F2E95C04F486A9C46DEEAE14FE29F&amp;_z=z">Sitecore Translations</a>
+</p>
 <p><a href="~/link.aspx?_id=37372732BBCB4E648963226A1E982D23&amp;_z=z">Server Side Validation</a></p>
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
@@ -454,14 +457,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e40c7977-1af6-417b-8495-a3f75016ed9e
+b14ccc19-1963-4d94-8bbc-29b514c6531e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150421T195016:635652426167776488Z
+20150425T161632:635655753929923451Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

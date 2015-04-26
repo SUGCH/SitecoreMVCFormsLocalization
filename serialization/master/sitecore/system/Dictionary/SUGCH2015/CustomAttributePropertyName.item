@@ -1,40 +1,33 @@
 ----item----
 version: 1
-id: {6432BF85-FF6B-4A40-A9B1-4909091C6185}
+id: {F616F11F-B5F5-439E-A5E7-97FFF4CBFF31}
 database: master
-path: /sitecore/content/Home/Dictionary Translations
-parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
-name: Dictionary Translations
+path: /sitecore/system/Dictionary/SUGCH2015/CustomAttributePropertyName
+parent: {2CC0A329-DE16-41B0-88E6-0DA2A977FC60}
+name: CustomAttributePropertyName
 master: {00000000-0000-0000-0000-000000000000}
-template: {76036F5E-CBCE-46D1-AF0A-4143F9B557AA}
-templatekey: Sample Item
+template: {6D1CD897-1936-4A3A-A511-289A94C2A7B1}
+templatekey: Dictionary entry
 
 ----field----
-field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
-name: __Renderings
-key: __renderings
-content-length: 201
+field: {580C75A8-C01A-4580-83CB-987776CEB3AF}
+name: Key
+key: key
+content-length: 27
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{7F70F7EC-9A8B-4829-9450-D3FE719870F0}" s:id="{798F53B6-FCE1-4E18-A793-EF6DC37D86D3}" s:ph="content" /></d></r>
-----field----
-field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
-name: __Workflow
-key: __workflow
-content-length: 38
-
-{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}
+CustomAttributePropertyName
 ----version----
 language: de
 version: 1
-revision: 94f7fc53-0bae-4b57-a15c-3bec5eb038ce
+revision: 6212b415-97ea-42e2-8145-bc0589f44008
 
 ----field----
-field: {75577384-3C97-45DA-A847-81B00500E250}
-name: Title
-key: title
-content-length: 24
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 19
 
-Dictionary Übersetzungen
+CustomAttribute (d)
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -48,7 +41,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150413T195432Z
+20150425T161459Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -62,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-94f7fc53-0bae-4b57-a15c-3bec5eb038ce
+6212b415-97ea-42e2-8145-bc0589f44008
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150421T184301:635652385817185559Z
+20150425T161505:635655753056304059Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -77,32 +70,32 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
-----field----
-field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
-name: __Workflow state
-key: __workflow state
-content-length: 38
-
-{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}
 ----version----
 language: en
 version: 1
-revision: 9dc62a3d-100e-4fe2-b5fd-829d402f71ee
+revision: f56511f5-8483-4319-bda1-09403ba305b9
 
 ----field----
-field: {75577384-3C97-45DA-A847-81B00500E250}
-name: Title
-key: title
-content-length: 23
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 19
 
-Dictionary Translations
+CustomAttribute (e)
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150413T195422Z
+20150425T161324Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -116,14 +109,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9dc62a3d-100e-4fe2-b5fd-829d402f71ee
+f56511f5-8483-4319-bda1-09403ba305b9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150421T175919:635652359595242179Z
+20150425T161332:635655752128126485Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -131,10 +124,3 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
-----field----
-field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
-name: __Workflow state
-key: __workflow state
-content-length: 38
-
-{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}
