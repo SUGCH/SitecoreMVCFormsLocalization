@@ -20,6 +20,14 @@
             return this.View(model ?? new ServerSideValidationViewModel());
         }
 
+        public ActionResult ClientSideValidation(ClientSideValidationViewModel model = null)
+        {
+            HtmlHelper.ClientValidationEnabled = true;
+            HtmlHelper.UnobtrusiveJavaScriptEnabled = true;
+
+            return this.View(model ?? new ClientSideValidationViewModel());
+        }
+
         public ActionResult Ultimate(UltimateViewModel model = null)
         {
             return this.View(model ?? new UltimateViewModel());

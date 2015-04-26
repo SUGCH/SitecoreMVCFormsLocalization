@@ -1,11 +1,11 @@
 ﻿@model SUGCH2015.Website.Models.UltimateViewModel
            
-@using (this.Html.BeginForm())
+@using (Html.BeginForm())
 {
     <div class="row">
-        @(this.Html.LabelFor(m => m.MetadataProviderPropertyName))
-        @(this.Html.EditorFor(m => m.MetadataProviderPropertyName))
-        @(this.Html.ValidationMessageFor(m => m.MetadataProviderPropertyName))
+        @Html.LabelFor(m => m.MetadataProviderPropertyName)
+        @Html.EditorFor(m => m.MetadataProviderPropertyName)
+        @Html.ValidationMessageFor(m => m.MetadataProviderPropertyName)
     </div>
 
     <div class="row">

@@ -119,10 +119,12 @@
     <Content Include="Views\Form\ServerSideValidation.cshtml" />
     <Content Include="Views\Form\Sitecore.cshtml" />
     <Content Include="Views\Form\Ultimate.cshtml" />
+    <Content Include="Views\Form\ClientSideValidation.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Attributes\SitecoreRequiredAttributeAdapter.cs" />
+    <Compile Include="Models\ClientSideValidationViewModel.cs" />
     <Compile Include="Models\SitecoreViewModel.cs" />
     <Compile Include="Models\UltimateViewModel.cs" />
     <Compile Include="Pipelines\Initialize\AddAdapter.cs" />

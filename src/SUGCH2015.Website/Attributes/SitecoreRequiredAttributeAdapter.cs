@@ -13,6 +13,19 @@
         {
         }
 
+        public override IEnumerable<ModelClientValidationRule> GetClientValidationRules()
+        {
+            var name = this.Attribute.ErrorMessage;
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                name = this.Attribute.GetType().Name;
+            }
+
+            var errorMessage = string.Format(CultureInfo.CurrentCulture, Translate.Text(name), this.Metadata.GetDisplayName());
+            
+            return new[] { new ModelClientValidationRequiredRule(errorMessage) };
+        }
+
         public override IEnumerable<ModelValidationResult> Validate(object container)
         {
             var context = new ValidationContext(container ?? this.Metadata.Model, null, null)

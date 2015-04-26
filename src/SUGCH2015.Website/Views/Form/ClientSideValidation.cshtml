@@ -1,0 +1,20 @@
+﻿@model SUGCH2015.Website.Models.ClientSideValidationViewModel
+
+@using (Html.BeginForm())
+{
+    <div class="row">
+        @Html.LabelFor(m => m.MessageByAttribute)
+        @Html.EditorFor(m => m.MessageByAttribute)
+        @Html.ValidationMessageFor(m => m.MessageByAttribute)
+    </div>
+
+    <div class="row">
+        @Html.LabelFor(m => m.MessageByAttributeKey)
+        @Html.EditorFor(m => m.MessageByAttributeKey)
+        @Html.ValidationMessageFor(m => m.MessageByAttributeKey)
+    </div>
+
+    <div class="row">
+        <input type="submit" />
+    </div>
+}
