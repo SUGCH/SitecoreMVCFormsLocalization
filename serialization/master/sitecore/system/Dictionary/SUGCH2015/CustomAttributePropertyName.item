@@ -19,15 +19,15 @@ CustomAttributePropertyName
 ----version----
 language: de
 version: 1
-revision: 6212b415-97ea-42e2-8145-bc0589f44008
+revision: d5379712-0d77-4e38-996a-e0d259aa7662
 
 ----field----
 field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
 name: Phrase
 key: phrase
-content-length: 19
+content-length: 17
 
-CustomAttribute (d)
+Benutzerdefiniert
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6212b415-97ea-42e2-8145-bc0589f44008
+d5379712-0d77-4e38-996a-e0d259aa7662
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150425T161505:635655753056304059Z
+20150427T111150:635657299101522153Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -73,15 +73,15 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: f56511f5-8483-4319-bda1-09403ba305b9
+revision: 694e0725-bd04-4e30-aafe-52b7e9650eda
 
 ----field----
 field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
 name: Phrase
 key: phrase
-content-length: 19
+content-length: 16
 
-CustomAttribute (e)
+Custom Attribute
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -109,14 +109,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f56511f5-8483-4319-bda1-09403ba305b9
+694e0725-bd04-4e30-aafe-52b7e9650eda
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150425T161332:635655752128126485Z
+20150427T111245:635657299656105183Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -19,15 +19,15 @@ MetadataProviderPropertyName
 ----version----
 language: de
 version: 1
-revision: 816888d4-a85c-4c8e-9ec0-0df7558d0cb1
+revision: 07b665b2-e485-4424-aafe-ac611184383b
 
 ----field----
 field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
 name: Phrase
 key: phrase
-content-length: 20
+content-length: 13
 
-MetadataProvider (d)
+Mit Metadaten
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-816888d4-a85c-4c8e-9ec0-0df7558d0cb1
+07b665b2-e485-4424-aafe-ac611184383b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150425T161433:635655752730405384Z
+20150427T111204:635657299246218690Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -73,15 +73,15 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 8af361d9-a210-4f9c-8672-7c9d4d24dd34
+revision: 728731d3-46fc-4f67-983f-deb3ed329617
 
 ----field----
 field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
 name: Phrase
 key: phrase
-content-length: 20
+content-length: 17
 
-MetadataProvider (e)
+Metadata Provider
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -109,14 +109,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8af361d9-a210-4f9c-8672-7c9d4d24dd34
+728731d3-46fc-4f67-983f-deb3ed329617
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150425T161354:635655752348535977Z
+20150427T111237:635657299579307727Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

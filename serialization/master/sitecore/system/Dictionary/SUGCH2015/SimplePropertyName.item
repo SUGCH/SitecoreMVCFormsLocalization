@@ -19,15 +19,15 @@ SimplePropertyName
 ----version----
 language: de
 version: 1
-revision: 5d7a488b-cf32-495f-bd39-714eb8cf7d6e
+revision: c61c68f5-4a43-4abb-a4b9-d8bbf11ff9f7
 
 ----field----
 field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
 name: Phrase
 key: phrase
-content-length: 10
+content-length: 7
 
-Simple (d)
+Einfach
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5d7a488b-cf32-495f-bd39-714eb8cf7d6e
+c61c68f5-4a43-4abb-a4b9-d8bbf11ff9f7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150425T161456:635655752965862891Z
+20150427T111134:635657298948054902Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -73,15 +73,15 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: e4d8c3c4-2152-4b8a-9557-d480887ae6a8
+revision: ae6cf6f8-8309-48c8-87bd-ee12366172f0
 
 ----field----
 field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
 name: Phrase
 key: phrase
-content-length: 10
+content-length: 15
 
-Simple (e)
+Simple Property
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -109,14 +109,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e4d8c3c4-2152-4b8a-9557-d480887ae6a8
+ae6cf6f8-8309-48c8-87bd-ee12366172f0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150425T161339:635655752198083238Z
+20150427T111306:635657299869956070Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

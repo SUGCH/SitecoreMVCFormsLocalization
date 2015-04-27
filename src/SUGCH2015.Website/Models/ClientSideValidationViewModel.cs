@@ -6,8 +6,8 @@
     {
         [Required]
         public string MessageByAttribute { get; set; }
-        
-        [Required(ErrorMessage = "Field is required")]
+
+        [Required(ErrorMessage = "RequiredAttributeErrorMessage")]
         public string MessageByAttributeKey { get; set; }
     }
 }

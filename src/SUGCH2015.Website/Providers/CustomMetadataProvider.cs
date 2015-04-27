@@ -17,9 +17,11 @@
             Type modelType,
             string propertyName)
         {
+            // create the metadata as it normally would
             var propertyAttributes = attributes.ToList();
             var modelMetadata = base.CreateMetadata(propertyAttributes, containerType, modelAccessor, modelType, propertyName);
             
+            // add translation based on your criteria
             if (IsTransformRequired(modelMetadata, propertyAttributes))
             {
                 modelMetadata.DisplayName = Translate.Text(modelMetadata.PropertyName);

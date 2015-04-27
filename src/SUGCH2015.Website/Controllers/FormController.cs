@@ -22,6 +22,7 @@
 
         public ActionResult ClientSideValidation(ClientSideValidationViewModel model = null)
         {
+            // enable client validation and unobtrusive javascript only for this action
             HtmlHelper.ClientValidationEnabled = true;
             HtmlHelper.UnobtrusiveJavaScriptEnabled = true;
 

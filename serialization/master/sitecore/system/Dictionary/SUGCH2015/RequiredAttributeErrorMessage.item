@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {7FB7F7BD-BFF0-45D0-B63E-0F3748FFA3CA}
+id: {E8C9B5CA-E96E-458C-A081-2C7219B31116}
 database: master
-path: /sitecore/system/Dictionary/SUGCH2015/RequiredAttribute
+path: /sitecore/system/Dictionary/SUGCH2015/RequiredAttributeErrorMessage
 parent: {2CC0A329-DE16-41B0-88E6-0DA2A977FC60}
-name: RequiredAttribute
+name: RequiredAttributeErrorMessage
 master: {00000000-0000-0000-0000-000000000000}
 template: {6D1CD897-1936-4A3A-A511-289A94C2A7B1}
 templatekey: Dictionary entry
@@ -13,21 +13,21 @@ templatekey: Dictionary entry
 field: {580C75A8-C01A-4580-83CB-987776CEB3AF}
 name: Key
 key: key
-content-length: 17
+content-length: 29
 
-RequiredAttribute
+RequiredAttributeErrorMessage
 ----version----
 language: de
 version: 1
-revision: 1bcc0007-11cc-4674-bd60-c0734a4aa05d
+revision: 75f49ee2-b78d-41b4-a5b9-4892c636df50
 
 ----field----
 field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
 name: Phrase
 key: phrase
-content-length: 44
+content-length: 39
 
-{0} ist ein Pflichtfeld. (RequiredAttribute)
+{0} ist ein Pflichtfeld. (ErrorMessage)
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1bcc0007-11cc-4674-bd60-c0734a4aa05d
+75f49ee2-b78d-41b4-a5b9-4892c636df50
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150427T110537:635657295376884394Z
+20150427T112425:635657306658065596Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -73,15 +73,15 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 1f38c851-640c-4604-a3c3-3c1addd48ac0
+revision: 37ecde4f-c35a-4820-a3ab-944e3abefdda
 
 ----field----
 field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
 name: Phrase
 key: phrase
-content-length: 42
+content-length: 37
 
-{0} field is required. (RequiredAttribute)
+{0} field is required. (ErrorMessage)
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -109,14 +109,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1f38c851-640c-4604-a3c3-3c1addd48ac0
+37ecde4f-c35a-4820-a3ab-944e3abefdda
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150427T113141:635657311011367590Z
+20150427T112503:635657307034920482Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
