@@ -227,7 +227,7 @@ sitecore\admin
 ----version----
 language: de
 version: 1
-revision: 242bdf9f-b5f4-41ca-88d1-b83cb96e52de
+revision: 8688ce24-b9ea-417e-89f5-ae862b962510
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
@@ -240,14 +240,14 @@ Sitecore MVC Formular Übersetzungen
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
 name: Text
 key: text
-content-length: 523
+content-length: 521
 
 <p><a href="~/link.aspx?_id=234651EAB38A422D9E6E71A2B58912C3&amp;_z=z">Traditionelle &Uuml;bersetzungen<br>
 </a></p>
 <p><a href="~/link.aspx?_id=368F2E95C04F486A9C46DEEAE14FE29F&amp;_z=z">Sitecore &Uuml;bersetzungen</a></p>
 <p><a href="~/link.aspx?_id=37372732BBCB4E648963226A1E982D23&amp;_z=z">Serverseitige Validierung</a></p>
 <p><a href="~/link.aspx?_id=2B5A9D64EB124727B77EF7FA18713A91&amp;_z=z">Clientseitige Validierung</a></p>
-<p><a href="~/link.aspx?_id=8DB0F6BEE6CF4F998F2D98B481340496&amp;_z=z">Empfehlung</a></p>
+<p><a href="~/link.aspx?_id=8DB0F6BEE6CF4F998F2D98B481340496&amp;_z=z">Ultimate</a></p>
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -275,14 +275,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-242bdf9f-b5f4-41ca-88d1-b83cb96e52de
+8688ce24-b9ea-417e-89f5-ae862b962510
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150427T113730:635657314508326726Z
+20150427T131803:635657374833776126Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -375,7 +375,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: f47f401b-1509-4261-8504-ad1be1eeb185
+revision: f1f4acd5-8b67-4cbd-acf2-4bffea64159d
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
@@ -388,7 +388,7 @@ Sitecore MVC Forms Localization
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
 name: Text
 key: text
-content-length: 508
+content-length: 502
 
 <p>
 <a href="~/link.aspx?_id=234651EAB38A422D9E6E71A2B58912C3&amp;_z=z">Traditional Translations<br>
@@ -398,7 +398,7 @@ content-length: 508
 </p>
 <p><a href="~/link.aspx?_id=37372732BBCB4E648963226A1E982D23&amp;_z=z">Serverside Validation</a></p>
 <p><a href="~/link.aspx?_id=2B5A9D64EB124727B77EF7FA18713A91&amp;_z=z">Clientside Validation</a></p>
-<p><a href="~/link.aspx?_id=8DB0F6BEE6CF4F998F2D98B481340496&amp;_z=z">Recommendation</a></p>
+<p><a href="~/link.aspx?_id=8DB0F6BEE6CF4F998F2D98B481340496&amp;_z=z">Ultimate</a></p>
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -461,14 +461,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f47f401b-1509-4261-8504-ad1be1eeb185
+f1f4acd5-8b67-4cbd-acf2-4bffea64159d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150427T113943:635657315836648515Z
+20150427T131837:635657375174027494Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

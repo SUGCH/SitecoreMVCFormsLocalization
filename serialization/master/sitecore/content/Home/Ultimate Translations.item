@@ -26,15 +26,15 @@ content-length: 38
 ----version----
 language: de
 version: 1
-revision: cdbb87ba-a12b-4719-b5ce-f6d63887a38a
+revision: d03c0c22-7a27-4800-ac58-198de65d70d3
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
 name: Title
 key: title
-content-length: 10
+content-length: 21
 
-Empfehlung
+Die Ultimative Lösung
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-cdbb87ba-a12b-4719-b5ce-f6d63887a38a
+d03c0c22-7a27-4800-ac58-198de65d70d3
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150427T113808:635657314889003004Z
+20150427T131711:635657374311011079Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -87,15 +87,15 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 058d04dd-24aa-4fb9-a190-2896c9ad2b21
+revision: 4772fc91-2f6d-43f0-8e01-06cd5b05b79e
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
 name: Title
 key: title
-content-length: 14
+content-length: 21
 
-Recommendation
+The Ultimate Solution
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -116,14 +116,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-058d04dd-24aa-4fb9-a190-2896c9ad2b21
+4772fc91-2f6d-43f0-8e01-06cd5b05b79e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150427T113851:635657315314493828Z
+20150427T131630:635657373900229248Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
