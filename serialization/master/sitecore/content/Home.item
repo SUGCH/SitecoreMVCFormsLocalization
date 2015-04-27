@@ -227,27 +227,27 @@ sitecore\admin
 ----version----
 language: de
 version: 1
-revision: a661dadc-be69-4e7d-a923-6a4b8610d5b5
+revision: 242bdf9f-b5f4-41ca-88d1-b83cb96e52de
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
 name: Title
 key: title
-content-length: 10
+content-length: 35
 
-Startseite
+Sitecore MVC Formular Übersetzungen
 ----field----
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
 name: Text
 key: text
-content-length: 538
+content-length: 523
 
 <p><a href="~/link.aspx?_id=234651EAB38A422D9E6E71A2B58912C3&amp;_z=z">Traditionelle &Uuml;bersetzungen<br>
 </a></p>
 <p><a href="~/link.aspx?_id=368F2E95C04F486A9C46DEEAE14FE29F&amp;_z=z">Sitecore &Uuml;bersetzungen</a></p>
 <p><a href="~/link.aspx?_id=37372732BBCB4E648963226A1E982D23&amp;_z=z">Serverseitige Validierung</a></p>
 <p><a href="~/link.aspx?_id=2B5A9D64EB124727B77EF7FA18713A91&amp;_z=z">Clientseitige Validierung</a></p>
-<p><a href="~/link.aspx?_id=8DB0F6BEE6CF4F998F2D98B481340496&amp;_z=z">Ultimate &Uuml;bersetzung</a></p>
+<p><a href="~/link.aspx?_id=8DB0F6BEE6CF4F998F2D98B481340496&amp;_z=z">Empfehlung</a></p>
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -275,14 +275,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a661dadc-be69-4e7d-a923-6a4b8610d5b5
+242bdf9f-b5f4-41ca-88d1-b83cb96e52de
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150426T220828:635656829087793999Z
+20150427T113730:635657314508326726Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -375,20 +375,20 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 04a3fb58-1650-4766-b55a-13254d985e45
+revision: f47f401b-1509-4261-8504-ad1be1eeb185
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
 name: Title
 key: title
-content-length: 8
+content-length: 31
 
-Homepage
+Sitecore MVC Forms Localization
 ----field----
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
 name: Text
 key: text
-content-length: 517
+content-length: 508
 
 <p>
 <a href="~/link.aspx?_id=234651EAB38A422D9E6E71A2B58912C3&amp;_z=z">Traditional Translations<br>
@@ -396,9 +396,9 @@ content-length: 517
 </p>
 <p><a href="~/link.aspx?_id=368F2E95C04F486A9C46DEEAE14FE29F&amp;_z=z">Sitecore Translations</a>
 </p>
-<p><a href="~/link.aspx?_id=37372732BBCB4E648963226A1E982D23&amp;_z=z">Server Side Validation</a></p>
-<p><a href="~/link.aspx?_id=2B5A9D64EB124727B77EF7FA18713A91&amp;_z=z">Client Side Validation</a></p>
-<p><a href="~/link.aspx?_id=8DB0F6BEE6CF4F998F2D98B481340496&amp;_z=z">Ultimate Translations</a></p>
+<p><a href="~/link.aspx?_id=37372732BBCB4E648963226A1E982D23&amp;_z=z">Serverside Validation</a></p>
+<p><a href="~/link.aspx?_id=2B5A9D64EB124727B77EF7FA18713A91&amp;_z=z">Clientside Validation</a></p>
+<p><a href="~/link.aspx?_id=8DB0F6BEE6CF4F998F2D98B481340496&amp;_z=z">Recommendation</a></p>
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -461,14 +461,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-04a3fb58-1650-4766-b55a-13254d985e45
+f47f401b-1509-4261-8504-ad1be1eeb185
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150426T220748:635656828689390489Z
+20150427T113943:635657315836648515Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
