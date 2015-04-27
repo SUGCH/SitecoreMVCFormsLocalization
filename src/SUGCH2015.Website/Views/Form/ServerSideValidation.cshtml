@@ -3,12 +3,6 @@
 @using (Html.BeginForm())
 {
     <div class="row">
-        @Html.LabelFor(m => m.MessageByModelBinder)
-        @Html.EditorFor(m => m.MessageByModelBinder)
-        @Html.ValidationMessageFor(m => m.MessageByModelBinder)
-    </div>
-    
-    <div class="row">
         @Html.LabelFor(m => m.MessageByAttribute)
         @Html.EditorFor(m => m.MessageByAttribute)
         @Html.ValidationMessageFor(m => m.MessageByAttribute)
